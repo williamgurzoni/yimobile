@@ -6,7 +6,7 @@ class Api {
       const data = require('./feed.json');
       setTimeout(() => {
         resolve(data);
-      }, 100);
+      }, 1500);
     });
   }
 }
